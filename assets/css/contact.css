@@ -1,0 +1,186 @@
+.contact_page{
+    margin-top: -10px; 
+    background-color: #263238;
+    color: white;
+}
+.contact_page .contact {
+    padding: 50px 120px 50px 120px;
+}
+.contact_map_form .google_map iframe{
+  width: 400px; 
+  height:450px;
+}
+.contact_page .contact .contact_phone {
+    width:100%;
+    height:auto;
+    text-align: center;
+  }
+  .contact_page .contact .contact_phone p i, .contact_address p i, .contact_mail p i {
+    font-size: 20px;
+    line-height: 33px;
+  }
+
+  .contact_page .contact_phone p, .contact_address p, .contact_mail p {
+    line-height: 27px;
+  }
+
+  .contact_page .contact .contact_address{
+    width:100%;
+    height:auto;
+    text-align: center;
+   
+  }
+  .contact_page .contact .contact_mail{
+    width:100%;
+    height:auto;
+    text-align: center;
+    
+  }
+  .contact_page .contact {
+    display:grid;
+    grid-template-columns:1fr 1fr 1fr;
+    grid-template-rows:1fr;
+    grid-gap:10px; 
+  }
+  .contact_page .contact .contact_phone {
+    grid-column-start: 1;
+    grid-column-end: 2;
+    grid-row-start: 1;
+    grid-row-end: 2;
+  }
+  .contact_page .contact .contact_address {
+    grid-column-start: 2;
+    grid-column-end: 3;
+    grid-row-start: 1;
+    grid-row-end: 2;
+  }
+  .contact_page .contact .contact_mail {
+    grid-column-start: 3;
+    grid-column-end: 4;
+    grid-row-start: 1;
+    grid-row-end: 2;
+  }
+
+/*-----------***----------*/
+
+.contact_map_form{padding: 50px 120px; }
+  .contact_map_form .google_map {
+    width:100%;
+    height:auto;
+   
+  }
+  .contact_map_form .contact_form{
+    width:100%;
+    height:auto;
+    background: #FCFCFC;
+    box-shadow: 0px 0px 4px rgba(0, 0, 0, 0.25);
+   
+  }
+  .contact_map_form  {
+    display:grid;
+    grid-template-columns:1fr 1fr;
+    grid-template-rows:1fr;
+    grid-gap:50px; 
+  }
+  .contact_map_form .contact_form .form{
+    padding: 20px;
+  }
+  .contact_map_form .google_map {
+    grid-column-start: 1;
+    grid-column-end: 2;
+    grid-row-start: 1;
+    grid-row-end: 2;
+  }
+  .contact_map_form .contact_form {
+    grid-column-start: 2;
+    grid-column-end: 3;
+    grid-row-start: 1;
+    grid-row-end: 2;
+  }
+  .contact_map_form .contact_form .form label{
+    padding: 10px 0px;
+  }
+  .contact_map_form .contact_form .form input, textarea{
+    width: 100%;
+    padding: 17px 22px;
+    margin: 10px 0px;
+    background: #FCFCFC;
+    border: none;
+    box-shadow: 0px 0px 2px rgba(0, 0, 0, 0.25);
+    border-radius: 5px;
+  }
+  .contact_map_form .contact_form .form textarea {
+    padding: 17px 22px;
+  }
+
+  .contact_map_form .contact_form .form button {
+    width: 100%;  
+    background-color: #FFC727; 
+    text-align: center; 
+    padding: 11px 10px;
+    box-shadow: 0px 0px 2px rgba(0, 0, 0, 0.25);                            
+    border-radius: 5px; 
+    border: none;
+  }
+  .contact_map_form .contact_form .form button a{
+    text-decoration: none; 
+    color: #fff;
+  }
+
+  @media screen and (max-width: 1050px) {
+    .contact_page .contact {
+      display:grid;
+      grid-template-columns:1fr;
+      grid-template-rows: 1fr 1fr 1fr;
+      grid-gap:10px; 
+    }
+    .contact_page .contact .contact_phone {
+      grid-column-start: 1;
+      grid-column-end: 2;
+      grid-row-start: 1;
+      grid-row-end: 2;
+    }
+    .contact_page .contact .contact_address {
+      grid-column-start: 1;
+      grid-column-end: 2;
+      grid-row-start: 2;
+      grid-row-end: 3;
+    }
+    .contact_page .contact .contact_mail {
+      grid-column-start: 1;
+      grid-column-end: 2;
+      grid-row-start: 3;
+      grid-row-end: 4;
+    }
+
+    .contact_map_form .google_map {
+      text-align: center;
+    }
+    .contact_map_form  {
+      display:grid;
+      grid-template-columns:1fr;
+      grid-template-rows:1fr 1fr;
+      grid-gap:10px; 
+    }
+    .contact_map_form .google_map {
+      grid-column-start: 1;
+      grid-column-end: 2;
+      grid-row-start: 1;
+      grid-row-end: 2;
+    }
+    .contact_map_form .contact_form {
+      grid-column-start: 1;
+      grid-column-end: 2;
+      grid-row-start: 2;
+      grid-row-end: 3;
+    }
+  }
+
+
+  @media screen and (max-width: 600px) {
+    .contact_map_form{
+      padding: 50px 20px;
+     }
+  }
+
+ 

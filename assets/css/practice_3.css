@@ -1,0 +1,90 @@
+@import url('https://fonts.googleapis.com/css2?family=Livvic&family=Satisfy&family=Sofia+Sans+Extra+Condensed:ital,wght@1,300&display=swap');
+*{
+	font-family: 'Satisfy', cursive;
+}
+
+.testimonial {
+	height: 500px;
+	max-width: 1240px;
+	display: flex;
+	align-items: center;
+	justify-content: center;
+	background-color: gray;
+	margin: auto;
+	position: relative;
+}
+.swiper {
+	width: 950px;
+}
+.testimonial .card .image{
+	height: 200px;
+	width: 250px;
+	padding: 3px;
+}
+.testimonial .card .image img {
+	height: 100%;
+	width: 100%;
+	object-fit: cover;
+	border: 3px solid #fff;
+}
+.card {
+	border-radius: 20px;
+	background: yellow;
+}
+.card .card_content {
+	display: flex;
+	flex-direction: column;
+	align-items: center;
+	padding: 30px;
+}
+.card .name_profession {
+	display:flex;
+	flex-direction: column;
+	align-items: center;
+	margin-top: 10px;
+	color: blue;
+}
+.next_button {
+	font-size: 15px;
+	color: black;
+	
+	height: 20px;
+	width: 20px;
+	border-radius: 50%;
+	background-color: #FFF0C7;;
+}
+.swiper-button-next:after {
+	font-size: 15px;
+}
+
+
+
+/* body{
+	background-color: #004466;
+	padding:0;
+	margin:0;
+	height:100vh;
+	width:100vw;
+	display:flex;
+	align-items:center;
+	justify-content:center;
+  } */
+ .image_animation {
+
+ }
+  .an{
+	animation-name: flo;
+	animation-duration: 5s;
+	animation-iteration-count: infinite;
+	/* margin: auto; */
+	position: relative; 
+	/* bottom: 80px; */
+	/* left:48%;
+	right: 48%; */
+  
+  }
+  @keyframes flo{
+	50%{
+	  transform: translateY(30px);
+	}
+  }

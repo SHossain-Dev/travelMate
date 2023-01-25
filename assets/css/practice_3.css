@@ -549,7 +549,7 @@ height: 220px; width: 220px; border-radius: 50%;
 .swiper-slide {
 	height: 450px;
     margin-bottom: 50px;
-	margin-top: 50px;
+	/* margin-top: -50px; */
 }
 
 @media screen and (min-width: 1920px) { 

@@ -1,0 +1,703 @@
+@media screen and (max-width: 600px) {
+    
+    /* global css */
+    
+    .nav-wrapper{
+      padding: 5px 20px;
+      }
+    .top-container {
+      padding: 10px 20px;
+    }
+
+    .dropdown_content {
+        left: -140px;
+      }
+    
+    header{ 
+        height: 450px;
+    }
+    .cover-main .home_banner_text {
+        position: absolute;
+        top: 24%;
+        left: 15px;
+    }
+    .cover-main .home_banner_text h1 {
+        font-size: 35px;
+        line-height: 44px;
+    }
+    .cover-main .home_banner_text p {
+        font-size: 22px;
+    }
+    .home_banner_text  .wrapper .search-input{
+        width: 300px;
+      }
+      .home_banner_text .search-input input{
+        height: 35px;
+        width: 300px;
+        padding: 0 10px 0 10px;
+        font-size: 12px;
+      }
+    .home_banner_text .search-input .icon{
+        height: 35px;
+        line-height: 38px;
+        font-size: 16px;
+    }
+    .adventure_counter {
+        height: 380px;
+      }
+    .section_button {
+        margin-bottom: 20px;
+    }
+    .ad_counter_right #demo {
+        font-size: 25px;
+        word-spacing: 35px;
+      }
+    .adventure_counter .ad_counter_right h3:last-child {
+        font-size: 17px;
+      }
+      .adventure_counter .ad_counter_right h3:last-child span:nth-child(1) {
+        padding: 0px 0px 0px 20px;
+      }
+      .adventure_counter  .ad_counter_right h3:last-child span:nth-child(2) {
+        padding: 0px 0px 0px 20px;
+      }
+      .adventure_counter .ad_counter_right h3:last-child span:nth-child(3) {
+        padding: 0px 10px;
+      }
+
+    .Popular_Places .p_title h3 {
+        font-size: 44px;
+    }
+
+    .Popular_Places .place_container img {
+        width: 372px;
+    }
+    .title_content h1 {
+        font-size: 25px;
+    }
+    .title_content h3 {
+        font-size: 44px;
+    }
+
+    .next_trip .trip_container {
+        grid-template-rows: 0.7fr 0.7fr;
+    }
+    .section_title {
+        font-size: 30px;
+    }
+    .Popular_Packages .ex_palces {
+        padding: 50px 20px;
+    }
+
+      
+    /* ================ About us section=========== */
+    .aboutus_quation_container {
+        padding: 50px 50px;
+    }
+    .knowsUs_container .right_content img {
+        width: 300px;
+    }
+    .Our_team {
+        padding: 50px 20px;
+    }
+    .joinUs_conteiner {
+        padding: 20px 20px;
+    }
+
+    .knowsUs_2_container img {
+        height:395px; 
+        width: 100%;
+      }
+
+    .knowsUs_2_container .right_content {
+        
+        padding: 0px 50px 20px 50px;
+    }
+        
+    /* about part 3 */
+
+    .knowsUs_3_container .details_content {
+        padding: 0px 50px;
+    }
+
+    /* about part 4 */
+    .knowsUs_4_container {
+        grid-template-columns: repeat(auto-fit, minmax(412px, 472px));
+    }
+    .knowsUs_4_container .left_content img {
+        width: 350px;
+    }
+    .knowsUs_4_container .right_content {
+        padding: 0px 20px;
+    }
+
+    /* explore */
+    .cover-main .explore_text h1 {
+        font-size: 44px;
+        line-height: 44px;
+    }
+    .search_section {
+        padding: 30px 20px 0px 30px;
+    }
+    .explore_htitle_td_pl {
+        padding: 150px 20px 0px 20px;
+    }
+    .explore_htitle_td_pl  h2{
+        font-style: normal;
+        font-weight: 400;
+        font-size: 42px;
+        line-height: 72px;
+        color: #000000;
+    }
+    .explore_htitle {
+        padding: 0px 20px;
+    }
+    .explore_trendy_place {
+        padding: 50px 50px;
+    }
+    .explore_htitle h2 {
+        font-size: 42px; 
+    }
+    .tp_textcontent .tp_pln {
+        font-size: 18px;
+    }
+
+    /* hotel_book */
+    .search_section {
+        padding: 30px 20px 20px 30px;
+    }
+    .hotel_book_src {
+        height: 400px;
+    }
+    .hotel_book_src .ss_section {
+        width: 100%;
+    }
+    .hotel_book_src .ss_section input {
+        width: 100%;
+    }
+    .hotel_book_src .ss_section .ss_date {
+        width: 100%;
+        margin-top: 20px;
+    }
+    .hotel_book_src .ss_section .ss_date .ss_date_ch_f {
+        width: 100%;
+        margin-top: 15px;
+    }
+    .hotel_book_src .ss_section .ss_date input {
+        width: 100%;
+    }
+    .hotel_book_src .ss_section .ss_date .ss_date_ch_l {
+        width: 100%;
+        margin-top: 15px;
+    }
+    .hotel_book_src .ss_section button { 
+        width: 20%;
+        margin-top: 15px;
+    }
+    .luxurious_hotel {
+        padding-top: 350px;
+    }
+
+    /* blog */
+    .cover-main .ab_banner_text {
+        top: 40%;
+    }
+    .cover-main .ab_banner_text h1 {
+        font-size: 44px;
+    }
+    .blog {
+        padding: 50px 20px;
+    }
+    .blog .wrapper .btext_formet2 h2 {
+        font-size: 16px;
+        line-height: 30px;
+    }
+    .blog .wrapper .btext_formet h2 {
+        font-size: 16px;
+        line-height: 30px;
+    }
+
+    /* contact */
+
+    .contact_map_form .google_map iframe{
+        width: 350px; 
+        height:400px;
+      }
+
+      .contact_page .contact {
+        padding: 50px 20px;
+    }
+    
+}
+
+@media screen and (min-width: 1920px) { 
+    /* Home */
+    .top-container {
+        padding: 10px 220px;
+    }
+    .top-container .topcontact { 
+        font-style: normal;
+        font-weight: 500;
+        font-size: 22px;
+        line-height: 33px;
+        letter-spacing: 0.03em;
+    }
+    .top-container .top_contact i {
+        font-size: 22px;
+    }
+    .top-container i {
+        font-size: 22px; 
+    }
+    .top-container {
+        height: 70px; 
+    }
+    .top-container .top_smedia a:last-child {
+        padding: 28px 10px;
+    }
+    .header .logo {
+        font-family: 'Libre Baskerville';
+        font-style: normal;
+        font-weight: 700;
+        font-size: 30px;
+        line-height: 96px;
+        color: #FFC727;
+        text-shadow: 0px 1px 3px rgba(0, 0, 0, 0.25);
+    }
+
+    nav.nav-wrapper ul li{
+        display: inline-block;
+        padding: 0 28px;
+        margin-bottom: 0;
+    }
+
+
+
+
+
+
+    .cover-main .home_banner_text {
+        left: 220px;
+    }
+    .nav-wrapper { 
+        padding: 18px 220px;
+    }
+    .home_banner_text .wrapper .search-input {
+        width: 700px;
+    }
+
+    .adventure_counter .container {
+        padding: 50px 220px; 
+    }
+    .ad_counter_right #demo {
+        font-family: 'Libre Baskerville';
+        font-size: 64px; 
+        line-height: 96px;
+    }
+    .section_button {
+        padding: 17px 40px;
+        font-style: normal;
+        font-weight: 400;
+        font-size: 18px;
+        line-height: 27px;
+        letter-spacing: 0.02em;
+
+        margin-top: 50px;
+    }
+    .adventure_counter .ad_counter_right h3:last-child span:nth-child(1) {
+        padding: 0px 0px 0px 70px;
+    }
+    .Popular_Places {
+        padding: 50px 220px;
+    }
+    .next_trip .trip_container {
+        padding: 50px 220px;
+    }
+    .trip_container .left_trip {
+        text-align: left;
+    }
+    .Popular_Places .place_container img {
+        height: 350px;
+    }
+
+    .Popular_Packages {
+        padding: 50px 0px;
+    }
+
+    .Popular_Packages .ex_palces {
+        padding: 70px 220px;
+    }
+
+
+
+
+
+
+
+
+
+/* exclusive Pakages Home */
+
+    .ex_palces .Home_popular_pakage {
+        max-width: 1480px;
+    }
+    /* .Home_popular_pakage .card .image {
+        height: 380px;
+    } */
+    .swiper-slide{
+        box-shadow: none;
+    }
+    /*.name_profession .name {
+        font-size: 32px;
+    }
+    .name_profession .profession {
+        font-size: 18px;
+        margin-top: 12px;
+    }
+    .name_profession .bottom_details {
+        font-size: 22px;
+        line-height: 50px;
+        color: #000000;
+    } */
+
+
+
+
+
+
+    /* .ex_palces .Home_popular_pakage {
+        height: 500px;
+        max-width: 1240px;
+        display: flex;
+        align-items: center;
+        justify-content: center;
+        position: relative;
+    }
+    .ex_palces .swiper {
+        width: 1270px;
+    }
+    .Home_popular_pakage .card .image{
+        height: 200px;
+        width: 100%;
+    }
+    .Home_popular_pakage .card .image img {
+        height: 100%;
+        width: 100%;
+        object-fit: cover;
+    }
+    .ex_palces .card {
+    }
+    .ex_palces .card .card_content {
+        display: flex;
+        flex-direction: column;
+    }
+    .ex_palces .card .name_profession {
+        display:flex;
+        flex-direction: column;
+        margin-top: 10px;
+      text-align: left;
+    }
+    .ex_palces .name_profession .name {
+      text-align: left;
+      font-style: normal;
+      font-weight: 400;
+      font-size: 28px;
+      line-height: 39px;
+    }
+    .ex_palces .name_profession .profession {
+      font-style: normal;
+      font-weight: 400;
+      font-size: 11px;
+      line-height: 27px;
+      letter-spacing: 0.02em;
+      color: #263238;
+    }
+    .ex_palces .name_profession .bottom_details {
+      font-style: normal;
+      font-weight: 500;
+      font-size: 16px;
+      line-height: 33px;
+      letter-spacing: 0.03em;
+    }
+    .ex_palces .swiper-button-next:after , .ex_palces .swiper-button-prev:after {
+        font-size: 18px;
+        font-weight: bold;
+        color: black;
+        
+        padding: 10px 15px;
+        border-radius: 50%;
+        background-color: #FFF0C7;
+    } */
+
+
+
+
+
+
+
+    /* section text */
+    .section_description p {
+        font-family: 'Libre Franklin';
+        font-style: normal;
+        font-weight: 400;
+        font-size: 18px;
+        line-height: 27px;
+        text-align: justify;
+        letter-spacing: 0.02em;
+    }
+    
+    .contact_map_form {
+        padding: 50px 220px;
+    }
+    footer {
+        padding: 50px 220px 20px 220px;
+    }
+    .Popular_Places .place_container {
+        padding: 0px 0px 0px 0px;
+    }
+    .Popular_Places .place_container img {
+        height: 450px;
+        /* width: 488px;  */
+        width: 100%;
+    }
+
+    /* About Us */
+
+
+    .aboutus_quation_container {
+        padding: 50px 220px;
+    }
+    .aboutus_quation_container > div {
+        padding: 70px 20px;
+    }
+    .aboutus_quation_container img {
+        height: 100px;
+        width: 100px;
+    }
+    .aboutus_quation_container p {
+        font-size: 32px;
+    }
+
+    .knowsUs_container {
+        padding: 50px 220px;
+    }
+    .Our_team {
+        padding: 50px 220px;
+    }
+    .joinUs_conteiner {
+        padding: 20px 220px; 
+    }
+
+    .aboutus_quation_container {
+        justify-content: center;
+        align-items: center;
+        justify-items: center;
+    }
+    .aboutus_3 > div {
+        height: 300px;
+        width: 300px;
+    }
+    .aboutus_3 > div {
+        padding: 0px 0px;
+    }
+    .aboutus_3 .quation_items {
+        margin: 70px 0px;
+    }
+
+    /* aboutus_4 */
+
+    .knowsUs_4_container {
+        grid-template-columns: 1fr 1fr;
+        grid-template-rows: 1fr;
+        padding: 70px 220px;
+    }
+    .knowsUs_4_container .left_content img {
+        height: 579px;
+        width: 753px; 
+    }
+    .knowsUs_4_container > .right_content {
+        padding: 70px 0px 70px 50px;
+    }
+    .knowsUs_4_container .sort_title {
+        font-family: 'Satisfy', cursive;
+         font-style: normal;
+        font-weight: 400;
+        font-size: 32px;
+        line-height: 96px;
+        color: #FFC727;
+     }
+    .knowsUs_4_container .bold_title { 
+        font-family: 'Libre Baskerville';
+        font-style: normal;
+        font-weight: 700;
+        font-size: 64px;
+        line-height: 96px;
+        color: #FFFFFF;
+     }
+    .knowsUs_4_container .details_content {
+        font-family: 'Libre Franklin';
+        font-style: normal;
+        font-weight: 400;
+        font-size: 18px;
+        line-height: 27px;
+        letter-spacing: 0.02em;
+        color: #FFFFFF;
+    }
+    .knowsUs_4_container button {
+        margin: 20px 0px;
+    }
+    .knowsUs_4_container .left_content::after {
+        bottom: -30px;
+        left: -30px; 
+    }
+    /* for all */
+    .joinUs_conteiner {
+        grid-template-columns: 1fr .7fr;
+    }
+    .joinUs_conteiner {
+        padding: 70px 220px;
+        height: 200px;
+    }
+    .bold_title {
+        font-style: normal;
+        font-weight: 400;
+        font-size: 48px;
+        line-height: 72px;
+    }
+    .joinUs_conteiner .right_content button {
+        padding: 20px 30px;
+        font-style: normal;
+        font-weight: 400;
+        font-size: 24px;
+        line-height: 29px;
+    }
+
+
+
+
+   
+
+    /* explore */
+    .explore_trendy_place .tp_content img {
+        height: 280px;
+    }
+    .explore_trendy_place {
+        padding: 25px 220px 50px 220px;
+    }
+    .explore_htitle {
+        padding: 0px 220px;
+    }
+
+    /* blog */
+    .blog {
+        padding: 50px 220px;
+    }
+
+    .blog .wrapper .btext_formet2 p {
+        font-style: normal;
+        font-weight: 400;
+        font-size: 18px;
+        line-height: 27px;
+        letter-spacing: 0.02em;
+    }
+    .blog .wrapper .btext_formet2 h2 {
+        font-style: normal;
+        font-weight: 500;
+        font-size: 22px;
+        line-height: 33px;
+        letter-spacing: 0.03em;
+    }
+    .blog .wrapper .btext_formet p {
+        font-style: normal;
+        font-weight: 400;
+        font-size: 18px;
+        line-height: 27px;
+        letter-spacing: 0.02em;
+    }
+    .blog .wrapper .btext_formet h2 {
+        font-style: normal;
+        font-weight: 500;
+        font-size: 22px;
+        line-height: 33px;
+        letter-spacing: 0.03em;
+    }
+    .blog .wrapper .btext_formet2 img {
+        height: 500px;
+        width: 100%; 
+    }
+    .blog .wrapper .btext_formet img {
+        height: 230px; 
+    }
+
+    
+
+
+
+
+    /* registration */
+    .registration .item2 .reg_link .google {
+        padding: 20px 20px;
+    }
+    .registration .item2 .reg_link .facebook {
+            padding: 20px 20px;
+        }
+    .registration .item2 input {
+        padding: 18px 8px;
+    }
+
+    /* footer */
+    .footer-inner {
+        grid-template-columns: 2fr 1fr 1fr 1fr;
+    }
+
+    footer h1 { 
+        font-family: 'Libre Baskerville';
+        font-style: normal;
+        font-weight: 700;
+        font-size: 30px;
+        line-height: 36px;
+        padding-bottom: 0px;
+    }
+    footer h2 { 
+        font-style: normal;
+        font-weight: 400;
+        font-size: 18px;
+        line-height: 27px;
+        letter-spacing: 0.02em;
+        color: #7F7F7F;
+        padding-top: 0px;
+    }
+    .footer-item p span { 
+        font-style: normal;
+        font-weight: 400;
+        font-size: 18px;
+        line-height: 27px;
+        letter-spacing: 0.02em;
+    }
+    footer h3 { 
+        font-style: normal;
+        font-weight: 500;
+        font-size: 22px;
+        line-height: 33px;
+        letter-spacing: 0.03em;
+    }
+    footer li {
+        font-style: normal;
+        font-weight: 500;
+        font-size: 18px;
+        line-height: 33px;
+        letter-spacing: 0.03em;
+    }
+    .footer-item input { 
+        padding: 16px 10px;
+        width: 100%;
+        border-radius: 5px;
+    }
+    .footer-item button {
+        padding: 16px 242px;
+        width: 100%;
+        border-radius: 5px;
+    }
+    
+    
+
+}

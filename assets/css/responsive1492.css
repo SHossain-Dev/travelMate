@@ -1,0 +1,5 @@
+@media screen and (max-width: 1366px) {
+    nav.nav-wrapper ul li {
+        padding: 0 8px;
+    }
+}

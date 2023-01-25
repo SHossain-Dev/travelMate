@@ -1,0 +1,4 @@
+.hotel_details .explore_trendy_place {
+    grid-template-rows: repeat(1, 270px);
+}
+

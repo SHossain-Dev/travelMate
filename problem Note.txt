@@ -1,0 +1,3 @@
+Travel Mate website Problem list
+
+**Explore card overlaping the header menu

@@ -1,0 +1,1085 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>TravelMate-Home</title>
+
+    <!-- swiper css link -->
+    <link rel="stylesheet" href="./assets/css/swiper-bundle.min.css">
+
+    <link
+      rel="stylesheet"
+      href="https://cdn.jsdelivr.net/npm/swiper/swiper-bundle.min.css"
+    />
+
+
+
+    <!-- testimonial slider link -->
+    <link href="https://fonts.googleapis.com/css?family=Lato:300,400,700,900&display=swap" rel="stylesheet">
+	<link rel="stylesheet" href="https://md-aqil.github.io/images/swiper.min.css">
+
+
+
+
+    <!-- font-awesome link -->
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.15.3/css/all.min.css"/>
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+    
+    <!-- google fonts link  -->
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Livvic&display=swap" rel="stylesheet">
+
+    <!-- custom css -->
+    <link rel="stylesheet" href="./assets/css/rhp.css">
+    <link rel="stylesheet" href="./assets/css/style_1.css" />
+    <link rel="stylesheet" href="./assets/css/about_us.css" />
+    <link rel="stylesheet" href="./assets/css/blog.css" />
+    <link rel="stylesheet" href="./assets/css/blog_2.css" />
+    <link rel="stylesheet" href="./assets/css/footer.css">
+
+    <link rel="stylesheet" href="./assets/css/contact.css" />
+
+    <link rel="stylesheet" href="./assets/css/explore.css" />
+    <link rel="stylesheet" href="./assets/css/hotel_book.css">
+
+    <link rel="stylesheet" href="./assets/css/styles.css" />
+    <link rel="stylesheet" href="./assets/css/practice_3.css" />
+    <link rel="stylesheet" href="./assets/css/registration.css" />
+    <link rel="stylesheet" href="./assets/css/mobile_responsive.css" />
+</head>
+<body>
+    <div class="top-container">
+        <div class="top_contact">
+            <span><i class="fa fa-phone" aria-hidden="true"></i></span>
+            <span class="topcontact">+88 01304350205</span>
+            <span><i class="fa fa-envelope-o" aria-hidden="true"></i></span>
+            <span class="topcontact">drifterrunner@gmail.com</span>
+        </div>
+        <div class="top_smedia">
+            <a href="#"><i class="fa fa-facebook" aria-hidden="true"></i></a>
+            <a href="#"><i class="fa fa-instagram" aria-hidden="true"></i></a>
+            <a href="#"><i class="fa fa-twitter" aria-hidden="true"></i></a>
+            <a href="./log_in.html"><i class="fa fa-user-o" aria-hidden="true"></i></a>
+        </div>
+    </div>
+    <section class="cover-main box" id="home">
+        <div class="ab_banner_text home_banner_text">
+            <h1 class="Libre_font">Join with us and <br>
+                explore the world</h1>
+            <p>Escape the everyday</p>
+
+            <div class="wrapper">
+                <div class="search-input">
+                  <a href="" target="_blank" hidden></a>
+                  <input type="text" placeholder="Sajek, cox’s bazar, kuakata etc">
+                  <div class="autocom-box">
+                   <!-- // here list are inserted from javascript  -->
+                  </div>
+                  <div class="icon"><i class="fas fa-search"></i></div>
+                </div>
+            </div>
+            <!-- <script>
+                let $ = document
+                let liContainer = $.querySelector(".autocom-box")
+                let inputElem = $.querySelector("input")
+                let searchInput = $.querySelector(".search-input")
+
+                let suggestions = [
+                    "Channel",
+                    "CodingLab",
+                    "CodingNepal",
+                    "YouTube",
+                    "YouTuber",
+                    "YouTube Channel",
+                    "Blogger",
+                    "Bollywood",
+                    "Vlogger",
+                    "Vechiles",
+                    "Facebook",
+                    "Freelancer",
+                    "Facebook Page",
+                    "Designer",
+                    "Developer",
+                    "Web Designer",
+                    "Web Developer",
+                    "Login Form in HTML & CSS",
+                    "How to learn HTML & CSS",
+                    "How to learn JavaScript",
+                    "How to become Freelancer",
+                    "How to become Web Designer",
+                    "How to start Gaming Channel",
+                    "How to start YouTube Channel",
+                    "What does HTML stands for?",
+                    "What does CSS stands for?",
+                ];
+
+                inputElem.addEventListener("keyup", function(){
+                    let inputValue = inputElem.value
+                    if(inputValue){
+                        searchInput.classList.add("active")
+                        let filteredWord = suggestions.filter(function(word){
+                            return word.toLowerCase().includes(inputValue.toLowerCase())
+                            // return word.toLowerCase().startsWith(inputValue.toLowerCase())
+                        })
+                        
+                        suggestionWordsGenerator(filteredWord)
+                        
+                    } else{
+                        searchInput.classList.remove("active")
+                    }
+                    
+                })
+
+                let customListItem
+
+                function suggestionWordsGenerator(wordArray){
+                    let suggestionWord = wordArray.map(function(word){
+                        return "<li>" + word + "</li>"
+                    }).join("")
+                    
+                    if(suggestionWord){
+                        liContainer.innerHTML = suggestionWord
+                    }else{
+                        liContainer.innerHTML = "<li>" + inputElem.value + "</li>"
+                    }
+                    Select()
+                }
+
+                function Select (){
+                    let allListItems = liContainer.querySelectorAll("li")
+                    allListItems.forEach(function(wordItem){
+                        wordItem.addEventListener("click",function(e){
+                            inputElem.value = e.target.textContent
+                            searchInput.classList.remove("active")
+                        })
+                    })
+                }
+            </script>  -->
+
+
+
+        </div>
+
+        <header>
+            <nav class="nav-wrapper">
+  
+              <div class="logo">
+                  <a href="./index.html" class="logo Libre_font">TOURMATE </a>
+              </div>
+              <div class="navbar">
+                  <div class="dropdown">
+                      <button class="dropbtn"><i class="fa fa-bars" aria-hidden="true"></i>
+                      
+                      <div class="dropdown_content">
+                          <li><a href="./index.html">Home</a></li>
+                          <li><a>About Us +</a>
+                              
+                              <ul>
+                                  <li><a href="./about_us.html">About Us 1</a></li>
+                                  <li><a href="./about_us2.html">About Us 2</a></li>
+                                  <li><a href="./about_us3.html">About Us 3</a></li>
+                                  <li><a href="./about_us_4.html">About Us 4</a></li>
+                              </ul>
+                          </li>
+                          <li><a href="./explore.html">Explore</a></li>
+                          <li><a href="./hotel_book.html">Hotel book</a></li>
+                          <li><a href="./blog.html">Blog </a></li>
+                          <li><a href="./contact.html">Contact</a></li>
+                          <li><a href="./registration.html" id="registration">Registration</a></li>
+                      </div>
+  
+                  </div>
+                  <ul class="menu">
+                      <li><a href="./index.html">Home</a></li>
+                      <li><a >About Us +</a>
+                          <ul>
+                              <li><a href="./about_us.html">About Us 1</a></li>
+                              <li><a href="./about_us2.html">About Us 2</a></li>
+                              <li><a href="./about_us3.html">About Us 3</a></li>
+                              <li><a href="./about_us_4.html">About Us 4</a></li>
+                          </ul>
+                      </li>
+                      <li><a href="explore.html">Explore</a></li>
+                      <li><a href="./hotel_book.html">Hotel book</a></li>
+                      <li><a href="./blog.html">Blog </a></li>
+                      <li><a href="./contact.html">Contact</a></li>
+                      <li><a href="./registration.html" id="registration">Registration</a></li>
+                  </ul>
+              </div>
+              
+  
+             
+            </nav>
+            
+            
+        </header>
+        <!-- <header class="home_banner">
+          <nav class="nav-wrapper">
+
+            <div class="logo">
+                <a href="./index.html" class="logo">TOURMATE </a>
+            </div>
+            <div class="navbar">
+                <div class="dropdown">
+                    <button class="dropbtn"><i class="fa fa-bars" aria-hidden="true"></i>
+                   
+                    <div class="dropdown_content">
+                        <li><a href="./index.html">Home</a></li>
+                        <li><a>About Us +</a>
+                            
+                            <ul>
+                                <li><a href="./about_us.html">About Us 1</a></li>
+                                <li><a href="./about_us2.html">About Us 2</a></li>
+                                <li><a href="./about_us3.html">About Us 3</a></li>
+                                <li><a href="./about_us_4.html">About Us 4</a></li>
+                            </ul>
+                        </li>
+                        <li><a href="./explore.html">Explore</a></li>
+                        <li><a href="./hotel_book.html">Hotel book</a></li>
+                        <li><a>Blog +</a>
+                            <ul>
+                                <li><a href="./blog.html">Blog 1</a></li>
+                                <li><a href="./blog_2.html">Blog 2</a></li>
+                            </ul>
+                        </li>
+                        <li><a href="./contact.html">Contact</a></li>
+                        <li><a href="./registration.html" id="registration">Registration</a></li>
+                    </div>
+
+                </div>
+                <ul class="menu">
+                    <li><a href="./index.html">Home</a></li>
+                    <li><a >About Us +</a>
+                        <ul>
+                            <li><a href="./about_us.html">About Us 1</a></li>
+                            <li><a href="./about_us2.html">About Us 2</a></li>
+                            <li><a href="./about_us3.html">About Us 3</a></li>
+                            <li><a href="./about_us_4.html">About Us 4</a></li>
+                        </ul>
+                    </li>
+                    <li><a href="explore.html">Explore</a></li>
+                    <li><a href="./hotel_book.html">Hotel book</a></li>
+                    <li><a>Blog +</a>
+                        <ul>
+                            <li><a href="./blog.html">Blog 1</a></li>
+                            <li><a href="./blog_2.html">Blog 2</a></li>
+                        </ul>
+                    </li>
+                    <li><a href="./contact.html">Contact</a></li>
+                    <li><a href="./registration.html" id="registration">Registration</a></li>
+                </ul>
+            </div>
+            
+
+           
+          </nav>
+          
+          
+        </header> -->
+
+    </section>
+    <!-- header section end -->
+
+
+    <div class="adventure_counter">
+        <div class="container">
+            <div class="ad_counter_left">
+                <h2>Come with us to our</h2>
+                <h2>next adventure</h2>
+                <button class="section_button button_hover_effect"><a href="./registration.html">Join Now</a></button>
+    
+            </div>
+            <div class="ad_counter_right">
+                <div class="ad_counter_right_content">
+                    <h3>We are getting <span>ready</span></h3>
+                    <p id="demo"></p>
+                    <h3>
+                        <span>Day</span>
+                        <span>Hour</span>
+                        <span>Minutes</span>
+                    </h3>
+                </div>
+                
+    
+            </div>
+    
+            <script>
+                // Set the date we're counting down to
+                var countDownDate = new Date("Dec 30, 2023 15:37:25").getTime();
+                
+                // Update the count down every 1 second
+                var x = setInterval(function() {
+                
+                  // Get today's date and time
+                  var now = new Date().getTime();
+                    
+                  // Find the distance between now and the count down date
+                  var distance = countDownDate - now;
+                    
+                  // Time calculations for days, hours, minutes and seconds
+                  var days = Math.floor(distance / (1000 * 60 * 60 * 24));
+                  var hours = Math.floor((distance % (1000 * 60 * 60 * 24)) / (1000 * 60 * 60));
+                  var minutes = Math.floor((distance % (1000 * 60 * 60)) / (1000 * 60));
+                  //var seconds = Math.floor((distance % (1000 * 60)) / 1000);
+                    
+                  // Output the result in an element with id="demo"
+                  document.getElementById("demo").innerHTML = days + " " + hours + " "
+                  + minutes + " " ;
+                    
+                  // If the count down is over, write some text 
+                  if (distance < 0) {
+                    clearInterval(x);
+                    document.getElementById("demo").innerHTML = "EXPIRED";
+                  }
+                }, 1000);
+            </script>
+        </div>
+        
+    </div>
+
+    <!-- adventure section end -->
+
+    <section class="Popular_Places box">
+        <div class="p_title">
+            <div class="title_content">
+                <h1>Amaging</h1>
+                <h3>Popular Places</h3>
+            </div>
+        </div>
+            
+        <div class="p-place" >
+            <div class="place_container">
+                <div class="var p_items">
+                    <img src="./assets/images/popularPlaces/tahiland.png" alt="thailand">
+                    <div class="p_img_name satisfy_font">thailand</div>
+                </div>
+                <div class="var2 p_items">
+                    <img src="./assets/images//popularPlaces/france.png" alt="france">
+                    <div class="p_img_name satisfy_font">France</div>
+                </div>
+                <div class="var3 p_items">
+                    <img src="./assets/images/popularPlaces/kashmir.png" alt="Kasmir"> 
+                    <div class="p_img_name satisfy_font">Kasmir</div>
+                </div>
+
+                <div class="var4 p_items">
+                    <img src="./assets/images/popularPlaces/Italy.png" alt="Itali">
+                    <div class="p_img_name satisfy_font">Itali</div>
+                </div>
+                <div class="var5 p_items">
+                    <img src="./assets/images/popularPlaces/bd.png" alt="Bangladesh">
+                    <div class="p_img_name satisfy_font">Bangladesh</div>
+                </div>
+                <div class="var6 p_items">
+                    <img src="./assets/images/popularPlaces/greece.png" alt="Greece">
+                    <div class="p_img_name satisfy_font">Greece</div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- popular places section end -->
+
+
+    <section class="next_trip pt_50">
+        <div class="nt_title">
+            <div class="title_content">
+                <h1>Come With us</h1>
+                <h3>Our Next Trip</h3>
+            </div>
+        </div>
+        <div class="trip_us">
+            <div class="trip_container">
+                <div class="left_trip">
+                    <img src="./assets/images/home-svg/pana.svg" class="home_section_img" alt="trip-us">
+                </div>
+                <div class="right_trip">
+                    <div class="section_description">
+                        <h3 class="section_title">Next trip in Cox’s Bazar</h3><br>
+                        <p>Contrary to popular belief, Lorem Ipsum is not simply random text. It has roots in a piece of classical Latin literature from 45 BC, making it over 2000 years old. Richard McClintock, a Latin professor at Hampden-Sydney College in Virginia, looked up one of the more obscure Latin words, consectetur, from a Lorem Ipsum passage. <br><br>
+
+                        making it over 2000 years old. Richard McClintock, a Latin professor at Hampden-Sydney College in Virginia, looked up one of the more</p>
+
+                        <button class="section_button"><a href="#">Join Now</a></button>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- next trip section end -->
+    <section class="Popular_Packages">
+        <div class="Popular_Packages_title">
+            <div class="title_content">
+                <h1>Exclusive places</h1>
+                <h3>Popular Packages</h3>
+            </div>
+        </div>
+        <div class="ex_palces">
+            <div class="Home_popular_pakage"> 
+                <div class="swiper mineSwiper container">
+                    <div class="swiper-wrapper content">
+                        <div class="swiper-slide card">
+                            <div class="card_content">
+                                <div class="image">
+                                    <img src="./assets/images/popularPlaces/france.png" alt="">
+                                </div>
+                                <div class="name_profession">
+                                    <span class="name">Switzerland</span>
+                                    <span class="profession"> Sed ut perspiciatis unde omnis iste natus error sit
+                                        voluptatem accusantium doloremque.</span>
+                                        <div class="bottom_details"><span>$100.00/person</span> <span style="margin-left: 20px;">02 Days Tour</span></div>
+                                </div>
+        
+                            </div>
+                        </div>
+                        <div class="swiper-slide card">
+                            <div class="card_content">
+                                <div class="image">
+                                    <img src="./assets/images/popularPlaces/greece.png" alt="">
+                                </div>
+                                <div class="name_profession">
+                                    <span class="name">Roman</span>
+                                    <span class="profession"> Sed ut perspiciatis unde omnis iste natus error sit
+                                        voluptatem accusantium doloremque.</span>
+                                    <div class="bottom_details"><span>$100.00/person</span> <span style="margin-left: 20px;">02 Days Tour</span></div>
+                                </div>
+
+        
+                            </div>
+                        </div>
+                        <div class="swiper-slide card">
+                            <div class="card_content">
+                                <div class="image">
+                                    <img src="./assets/images/popularPlaces/Italy.png" alt="">
+                                </div>
+                                <div class="name_profession">
+                                    <span class="name">Maldive</span>
+                                    <span class="profession"><p>Sed ut perspiciatis unde omnis iste natus error sit
+                                        voluptatem accusantium doloremque.</p> </span>
+                                        <div class="bottom_details"><span>$100.00/person</span> <span style="margin-left: 20px;">02 Days Tour</span></div>
+                                </div>
+        
+                            </div>
+                        </div>
+                    </div>
+        
+                </div>
+                <div class="swiper-button-next"></div>
+                <div class="swiper-button-prev"></div>
+            </div> 
+        </div>
+    </section>
+
+     <!-- Swiper JS -->
+     <script src="https://cdn.jsdelivr.net/npm/swiper/swiper-bundle.min.js"></script>
+
+     <!-- Initialize Swiper -->
+     <script>
+       var swiper = new Swiper(".mineSwiper", {
+        //  slidesPerView: 3,
+         spaceBetween: 30,
+         slidesPerGroup: 3,
+         loop: true,
+         loopFillGroupWithBlank: true,
+         pagination: {
+           el: ".swiper-pagination",
+           clickable: true,
+         },
+         navigation: {
+           nextEl: ".swiper-button-next",
+           prevEl: ".swiper-button-prev",
+         },
+         breakpoints: {
+            650: {
+            slidesPerView: 1
+            },
+            651: {
+            slidesPerView: 2
+            },
+            800: {
+            slidesPerView: 3
+            }
+
+        }
+       });
+     </script> 
+
+
+ <!-- end popular pakages -->
+
+
+    <!-- testimonial section start -->
+    <div class="testimonial_header">
+        <div class="title_content" style="text-align: center;">
+            <h1>Testimonial</h1>
+            <h3>Popular Packages</h3>
+        </div>
+    </div>
+    <section class="testimonial">
+        
+        <div class="spacer">
+            <div class="testimonial-section">
+            <div class="testi-user-img">
+                <div class="swiper-container gallery-thumbs">
+                      <div class="swiper-wrapper" style="width: 0px;">
+                              <!-- <div class="swiper-slide">
+                                    <img class="u3" src="../assets/images/hotel-book_details/rh-2.png" alt="">
+                                </div>
+                      <div class="swiper-slide">
+                          <img class="u1" src="../assets/images/hotel-book_details/rh-1.png" alt="">
+                      </div>
+                      <div class="swiper-slide">
+                      <img class="u2" src="../assets/images/hotel-book_details/hbd-1.png" alt="">
+                      </div>
+                  
+                      <div class="swiper-slide">
+                      <img class="u4" src="../assets/images/hotel-book_details/hbd-4.png" alt="">
+                      </div> -->
+                      
+                      </div>
+                  </div>
+                </div>
+                <div class="user-saying">
+                      <div class="swiper-container testimonial">
+                              <div class="swiper-wrapper ">
+                                  <div class="swiper-slide">
+                                      <div class="quote">
+                                        <div style="width: 60%; margin: auto;">
+                                            <div style="width: 30%; float: left;">
+                                                <img class="quote-icon" src="./assets/images/man's face in a circle.svg" alt="">
+                                            </div>
+                                            <div style="width: 50%; float: right;">
+                                                <h1 style="font-family: 'Libre Franklin';
+                                                font-style: normal;
+                                                font-weight: 400;
+                                                font-size: 48px;
+                                                line-height: 72px;
+                                                margin-top: 30px;">Justin Mofiz</h1>
+                                                <span style="font-family: 'Libre Franklin';
+                                                font-style: normal;
+                                                font-weight: 400;
+                                                font-size: 32px;
+                                                line-height: 39px;
+                                                /* identical to box">Tour partner</span>
+                                            </div>
+                                        </div>
+                                              <!-- <img class="quote-icon" src="./assets/images/man's face in a circle.svg" alt=""> -->
+                                          <p style="font-family: 'Libre Franklin';
+                                          font-style: normal;
+                                          font-weight: 500;
+                                          font-size: 22px;
+                                          line-height: 33px;
+                                          /* or 150% */
+                                          
+                                          text-align: center;
+                                          letter-spacing: 0.03em;">
+                                            “Sed ut perspiciatis unde omnis iste natus error sit voluptatem accusantium doloremque laudantium, totam rem aperiam, eaque ipsa quae ab illo inventore veritatis et quasi architecto beatae vitae dicta sunt explicabo’’
+                                          </p>
+                                          <!-- <div class="name">-Ramkishor Verma-</div>
+                                          <div class="designation">University Student</div> -->
+                                          
+                                      </div>
+                                  </div>
+                                  <div class="swiper-slide">
+                                      <div class="quote">
+                                        <div style="width: 60%; margin: auto;">
+                                            <div style="width: 50%; float: left;">
+                                                <img class="quote-icon" src="./assets/images/man's face in a circle.svg" alt="">
+                                            </div>
+                                            <div style="width: 30%; float: right;">
+                                                <h1>sdfhksdlfh</h1>
+                                                <span>djlkfld</span>
+                                            </div>
+                                        </div>
+                                            <!-- <img class="quote-icon" src="./assets/images/man's face in a circle.svg" alt=""> -->
+                                        
+                                          <p>
+                                                  “This is best and biggest unified platform
+                                          for instant online admission. We can easily
+                                          take admission for any course in any instituteThis is best and biggest unified platform
+                                          for instant online admission. We can easily
+                                          take admission for any course in any instituteThis is best and biggest unified platform
+                                          for instant online admission. We can easily
+                                          take admission for any course in any institute..“
+                                          </p>
+                                          <!-- <div class="name">-Ramkishor Verma-</div>
+                                          <div class="designation">University Student</div> -->
+                                          
+                                      </div>
+                                  </div>
+                                  <div class="swiper-slide">
+                                      <div class="quote">
+                                        <div style="width: 60%; margin: auto;">
+                                            <div style="width: 30%; float: left;">
+                                                <img class="quote-icon" src="./assets/images/man's face in a circle.svg" alt="">
+                                            </div>
+                                            <div style="width: 50%; float: right;">
+                                                <h1>sdfhksdlfh</h1>
+                                                <span>djlkfld</span>
+                                            </div>
+                                        </div>
+                                            <!-- <img class="quote-icon" src="./assets/images/man's face in a circle.svg" alt=""> -->
+                                              
+                                          <p>
+                                                  “This is best and biggest unified platform
+                                          for instant online admission. We can easily
+                                          take admission for any course in any instituteThis is best and biggest unified platform
+                                          for instant online admission. We can easily
+                                          take admission for any course in any instituteThis is best and biggest unified platform
+                                          for instant online admission. We can easily
+                                          take admission for any course in any institute..“
+                                          </p>
+                                          <!-- <div class="name">-Ramkishor Verma-</div>
+                                          <div class="designation">University Student</div> -->
+                                          
+                                      </div>
+                                  </div>
+                                  <div class="swiper-slide">
+                                          <div class="quote">
+                                            <div style="width: 60%; margin: auto;">
+                                                <div style="width: 30%; float: left;">
+                                                    <img class="quote-icon" src="./assets/images/man's face in a circle.svg" alt="">
+                                                </div>
+                                                <div style="width: 50%; float: right;">
+                                                    <h1>sdfhksdlfh</h1>
+                                                    <span>djlkfld</span>
+                                                </div>
+                                            </div>
+                                                <!-- <img class="quote-icon" src="./assets/images/man's face in a circle.svg" alt=""> -->
+                                             
+                                              <p>
+                                                      “This is best and biggest unified platform
+                                              for instant online admission. We can easily
+                                              take admission for any course in any institute course in any instituteThis is best and biggest unified platform
+                                              for instant online admission. We can easily
+                                              take admission for any course in any institute..“
+                                              </p>
+                                              <!-- <div class="name">-Ramkishor Verma-</div>
+                                              <div class="designation">University Student</div> -->
+                                              
+                                          </div>
+                                      </div>
+                                  
+                              </div>
+                              <!-- If we need pagination -->
+                              <div class="swiper-pagination swiper-pagination-white"></div>
+                          
+                          </div>
+                </div>
+            </div>
+        </div>
+
+
+
+        <!-- testimonial slide -->
+    <script>
+        var galleryThumbs = new Swiper('.gallery-thumbs', {
+  effect: 'coverflow',
+  grabCursor: true,
+  centeredSlides: true,
+  slidesPerView: '2',
+  // coverflowEffect: {
+  //   rotate: 50,
+  //   stretch: 0,
+  //   depth: 100,
+  //   modifier: 1,
+  //   slideShadows : true,
+  // },
+  
+  coverflowEffect: {
+      rotate: 0,
+      stretch: 0,
+      depth: 50,
+      modifier: 6,
+      slideShadows : false,
+    },
+    
+});
+
+
+var galleryTop = new Swiper('.swiper-container.testimonial', {
+  speed: 400,
+  spaceBetween: 50,
+  autoplay: {
+    delay: 3000,
+    disableOnInteraction: false,
+  },
+  direction: 'vertical',
+  pagination: {
+    clickable: true,
+    el: '.swiper-pagination',
+    type: 'bullets',
+  },
+  thumbs: {
+      swiper: galleryThumbs
+    }
+});
+
+  </script>
+
+  <script src="../assets/js/swiper.min.js"></script>
+			
+        
+    </section>
+
+
+
+
+
+
+
+    
+    <!-- <section class="testimonial">
+        <div class="testimonial_header">
+            <div class="title_content" style="text-align: center;">
+                <h1>Testimonial</h1>
+                <h3>Popular Packages</h3>
+            </div>
+        </div> -->
+        <!-- <div class="testimonial_review">
+            <section class="testim" id="testim">
+                <div class="wrap">
+                    <div style="height: 50px; width: 50px; border-radius: 50%; background-color: #E0E0E0; opacity: 0.15; position: absolute; top: 260px;
+                    left: 100px; "></div>
+                    <div style="height: 60px; width: 60px; border-radius: 50%; background-color: #E0E0E0; opacity: 0.15; position: absolute; top: 60px;
+                    right: 100px; "></div>
+                    <div style="height: 50px; width: 50px; font-size: 200px; font-weight: bolder; color: #E0E0E0; opacity: 0.15; position: absolute; top: 300px;
+                    left: 46.5%; "> “ </div>
+                    <div style="height: 30px; width: 30px; border-radius: 50%; background-color: #E0E0E0; opacity: 0.15; position: absolute; top: 350px;
+                    right: 100px; "></div>
+                    <ul class="dots" id="testim-dots">
+                        <li class="dot active"></li>
+                        <li class="dot"></li>
+                        <li class="dot"></li>
+                        <li class="dot"></li>
+                        <li class="dot"></li>
+                    </ul>
+        
+                    <div class="cont" id="testim-content">
+        
+                        <div class="active">
+                            <div class="img">
+                                <img src="./assets/images/home-svg/man's face in a circle.svg">
+                            </div>
+                            <h2>Justin Mofiz <br>
+                                <span style="font-size: 12px; color: white;">Tour partner</span>
+                            </h2>
+                            
+                            
+                            <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Voluptates quasi aliquid vel voluptatum
+                                deleniti! Corrupti velit, porro facere facilis laboriosam accusantium, eos beatae maiores.</p>
+                        </div>
+                        
+                        <div>
+                            <div class="img"><img src="./assets/images/home-svg/man's face in a circle.svg"></div>
+                            <h2>Justin Mofiz <br><span style="font-size: 12px; color: white;">Tour partner</span></h2>
+                            <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Voluptates quasi aliquid vel voluptatum
+                                deleniti! Corrupti velit, porro facere facilis laboriosam accusantium, eos beatae maiores.</p>
+                        </div>
+                        
+                        <div>
+                            <div class="img"><img src="./assets/images/home-svg/man's face in a circle.svg"></div>
+                            <h2>Justin Mofiz <br><span style="font-size: 12px; color: white;">Tour partner</span></h2>
+                            <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Voluptates quasi aliquid vel voluptatum
+                                deleniti! Corrupti velit, porro facere facilis laboriosam accusantium, eos beatae maiores.</p>
+                        </div>
+                        
+                        <div>
+                            <div class="img"><img src="./assets/images/home-svg/man's face in a circle.svg"></div>
+                            <h2>Justin Mofiz <br><span style="font-size: 12px; color: white;">Tour partner</span></h2>
+                            <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Voluptates quasi aliquid vel voluptatum
+                                deleniti! Corrupti velit, porro facere facilis laboriosam accusantium, eos beatae maiores.</p>
+                        </div>
+                        
+                        <div>
+                            <div class="img"><img src="./assets/images/home-svg/man's face in a circle.svg"></div>
+                            <h2>Justin Mofiz <br><span style="font-size: 12px; color: white;">Tour partner</span></h2>
+                            <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Voluptates quasi aliquid vel voluptatum
+                                deleniti! Corrupti velit, porro facere facilis laboriosam accusantium, eos beatae maiores.</p>
+                        </div>
+                    </div>
+        
+                </div>
+            
+            </section> 
+
+
+            <script>
+                'use strict'
+                var testim = document.getElementById("testim"),
+                    testimDots = Array.prototype.slice.call(document.getElementById("testim-dots").children),
+                    testimContent = Array.prototype.slice.call(document.getElementById("testim-content").children),
+                    testimleftArrow = document.getElementById("left-arrow"),
+                    testimRightArrow = document.getElementById("right-arrow"),
+                    testimSpeed = 4500,
+                    currentSlide = 0,
+                    currentActive = 0,
+                    testimTimer
+                    ;
+                window.onload = function () {
+                
+                    function playSlide(slide) {
+                        for (var k = 0; k < testimDots.length; k++) {
+                            testimContent[k].classList.remove("active");
+                            testimContent[k].classList.remove("inactive");
+                            testimDots[k].classList.remove("active");
+                        }
+                        if (slide < 0) {
+                            slide = currentSlide = testimContent.length - 1;
+                        }
+                        if (slide > testimContent.length - 1) {
+                            slide = currentSlide = 0;
+                        }
+                        if (currentActive != currentSlide) {
+                            testimContent[currentActive].classList.add("inactive");
+                        }
+                        testimContent[slide].classList.add("active");
+                        testimDots[slide].classList.add("active");
+                
+                        currentActive = currentSlide;
+                
+                        clearTimeout(testimTimer);
+                        testimTimer = setTimeout(function () {
+                            playSlide(currentSlide += 1);
+                        }, testimSpeed)
+                    }
+                    testimleftArrow.addEventListener("click", function () {
+                        playSlide(currentSlide -= 1);
+                    })
+                    testimRightArrow.addEventListener("click", function () {
+                        playSlide(currentSlide += 1);
+                    })
+                
+                    for (var l = 0; l < testimDots.length; l++) {
+                        testimDots[l].addEventListener("click", function () {
+                            playSlide(currentSlide = testimDots.indexOf(this));
+                        })
+                    }
+                    playSlide(currentSlide);
+                
+                }
+                
+            </script> 
+           
+        </div> -->
+    <!-- </section> -->
+
+    <!-- testimonial section end -->
+
+
+    <section class="next_trip">
+        <div class="trip_us" style="margin-top: 180px;">
+            <div class="trip_container">
+                <div class="left_trip">
+                    <img src="./assets/images/home-svg/off_road.svg" class="home_section_img" alt="trip-us">
+                </div>
+                <div class="right_trip">
+                    <div class="section_description">
+                        <h3 class="section_title">Luxurious Travel Car</h3><br>
+                        <p>Contrary to popular belief, Lorem Ipsum is not simply random text. It has roots in a piece of classical Latin literature from 45 BC, making it over 2000 years old. Richard
+                        McClintock, a Latin professor at Hampden-Sydney College in Virginia, looked up one of the more obscure Latin words, consectetur, from a Lorem Ipsum passage.
+                    <br> <br>
+                    Richard
+                    McClintock, a Latin professor at Hampden-Sydney College in Virginia, looked up one of the more obscure Latin words, consectetur, from a Lorem Ipsum passage.</p>
+                    </div>
+                </div>
+            </div>
+        </div>
+
+        <div class="guide_lxHotel">
+            <div class="trip_container">
+                <div class="right_trip">
+                    <div class="section_description">
+                        <h3 class="section_title">Expert Travel Guide</h3><br>
+                        <p>Contrary to popular belief, Lorem Ipsum is not simply random text. It has roots in a piece of classical Latin literature from 45 BC, making it over 2000 years old. Richard <br>
+
+                        McClintock, a Latin professor at Hampden-Sydney College in Virginia, looked up one of the more obscure Latin words, consectetur, from a Lorem Ipsum passage.
+                        looked up one of the more obscure Latin words, consectetur, from a Lorem Ipsum passage.
+                        <br> <br>
+                        Richard
+                        McClintock, a Latin professor at Hampden-Sydney College in Virginia, looked up one of the more obscure Latin words, consectetur, from a Lorem Ipsum passage.</p>
+                    </div>
+                </div>
+                <div class="left_trip">
+                    <img src="./assets/images/home-svg/Tour_guide.svg" class="home_section_img" alt="trip-us">
+                </div>
+            </div>
+        </div>
+
+        <div class="trip_us">
+            <div class="trip_container">
+                <div class="left_trip">
+                    <img src="./assets/images/home-svg/traveling.svg" class="home_section_img" alt="trip-us">
+                </div>
+                <div class="right_trip">
+                    <div class="section_description">
+                        <h3 class="section_title">Safe & Secure Travel</h3><br>
+                        <p>Contrary to popular belief, Lorem Ipsum is not simply random text. It has roots in a piece of classical Latin literature from 45 BC, making it over 2000 years old. Richard <br>
+
+                        McClintock, a Latin professor at Hampden-Sydney College in Virginia, looked up one of the more obscure Latin words, consectetur, from a Lorem Ipsum passage.
+                        looked up one of the more obscure Latin words, consectetur, from a Lorem Ipsum passage.
+                        <br> <br>
+                        Richard
+                        McClintock, a Latin professor at Hampden-Sydney College in Virginia, looked up one of the more obscure Latin words, consectetur, from a Lorem Ipsum passage.</p>
+                    </div>
+                </div>
+            </div>
+        </div>
+
+        <div class="guide_lxHotel">
+            <div class="trip_container">
+                <div class="right_trip">
+                    <div class="section_description">
+                        <h3 class="section_title">Luxurious Hotel</h3><br>
+                        <p>Contrary to popular belief, Lorem Ipsum is not simply random text. It has roots in a piece of classical Latin literature from 45 BC, making it over 2000 years old. Richard <br>
+
+                        McClintock, a Latin professor at Hampden-Sydney College in Virginia, looked up one of the more obscure Latin words, consectetur, from a Lorem Ipsum passage. looked up one of the more obscure Latin words, consectetur, from a Lorem Ipsum passage.
+                        <br> <br>
+                        Richard
+                        McClintock, a Latin professor at Hampden-Sydney College in Virginia, looked up one of the more obscure Latin words, consectetur, from a Lorem Ipsum passage.</p>
+                    </div>
+                </div>
+                <div class="left_trip">
+                    <img src="./assets/images/home-svg/Hotel_booking.svg" class="home_section_img" alt="trip-us">
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- section_description part end -->
+
+
+    <section class="contact_map_form" style="background-color: #F0F0F0;">
+        <div class="google_map">
+                <div class="section_description" style="padding-top: 20px;">
+                    <h3 class="section_title">Registration to our next <br>
+                        Bandhorban tour.</h3><br>
+                    <p>Sed ut perspiciatis unde omnis iste natus error sit voluptatem accusantium doloremque laudantium, totam rem aperiam, eaque ipsa quae ab illo inventore veritatis et quasi architecto beatae vitae dicta sunt explicabo. Nemo enim ipsam voluptatem quia voluptas sit aspernatur aut odit aut fugit</p>
+                    <button class="section_button"><a href="#">View Details</a></button>
+                </div>
+
+        </div>
+
+        <div class="contact_form" style="background-color: #F0F0F0; box-shadow: none;">
+            <div class="form">
+                <div>
+                    <label for="ph_number">Name</label><br> 
+                    <input class="ph_number" type="text" placeholder="Name" /><br>
+                </div>
+                <div>
+                    <label for="email"> Contact</label><br>
+                    <input class="email" type="text" placeholder="Phone number" /><br>
+                </div>
+                <div>
+                    <label for="email"> Person</label><br>
+                    <input class="email" type="text" placeholder="Type number of person" /><br>
+                </div>
+                <div class="selectdiv">
+                    <span> Picking Point</span>
+                    <label>
+                        <select>
+                            <option selected>Select picking point  </option>
+                            <option>Option 1</option>
+                            <option>Option 2</option>
+                            <option>Last long option</option>
+                        </select>
+                    </label>
+                  </div>
+                <div>
+                    <label for="text">Message</label><br>
+                    <textarea class="message_inbox" rows="4" placeholder="Message"></textarea><br>
+                </div>
+                <button><a href="#">Register</a></button>
+            </div>
+        </div>
+    </section>
+
+
+    <!-- home contact section end -->
+
+    <footer>
+        <nav class="footer-inner">
+            <section class="footer-item">
+                <h1>TOURMATE</h1>
+                <h2 class="footerCC">There are many variations of passages of <br> Lorem Ipsum available, but the majority have <br> suffered alteration in some form</h2>
+                <p>
+                    <span><i class="fa fa-envelope-o" aria-hidden="true"></i>drifterrunner@gmail.com</span>
+                </p>
+                <p>
+                    <span><i class="fa fa-phone" aria-hidden="true"></i>+88 01304350205</span>
+                </p>
+                <p>
+                    <span><i class="fa fa-map-marker" aria-hidden="true"></i>110/C, Scjool street, Dhaka, Bangladesh.</span>
+                </p>
+            </section>
+        
+            <section class="footer-item">
+                <h3>Important Link</h3>
+                <ul>
+                    <li><a href="#">Career</a></li>
+                    <li><a href="#">Business mangement</a></li>
+                    <li><a href="#">Blog</a></li>
+                    <li><a href="#">Contact</a></li>
+                    <li><a href="#">Business strategy</a></li>
+                </ul>
+            </section>
+          
+            <section class="footer-item">
+                <h3>Report</h3>
+                <ul>
+                    <li><a href="#">Career</a></li>
+                    <li><a href="#">Business mangement</a></li>
+                    <li><a href="#">Blog</a></li>
+                    <li><a href="#">Contact</a></li>
+                    <li><a href="#">Business strategy</a></li>
+                </ul>
+            </section>
+        
+            <section class="footer-item">
+                <h3>Subscribe to our Newsletter</h3>
+                <div class="input-container">
+                    <i class="fa fa-envelope-o icon" aria-hidden="true"></i>
+                    <input class="input-field" type="text" placeholder="E-mail address" name="email">
+                </div>
+                <!-- <input type="text" class="mail_icon" placeholder="E-mail address" > -->
+                <button>send</button>
+            </section>
+        </nav>
+        <hr />
+        <p class="copywrite">copyright&#169;2023, All right reserved by mdfahad</p>
+      </footer>
+
+
+
+
+
+
+
+      <script src="https://ajax.googleapis.com/ajax/libs/jquery/1.11.3/jquery.min.js"></script>
+      <script src="scripts/main.js"></script>
+  
+      <!-- swiper js link -->
+      <script src="./assets/js/swiper-bundle.min.js"></script>
+      <!-- javascript -->
+      <script src="./assets/js/script.js"></script>
+
+
+        
+  
+      <script>
+          $(document).ready(function(){
+          var $header = $('header');
+          var $sticky = $header.before($header.clone().addClass("sticky"));
+  
+          $(window).on("scroll", function(){
+              var scrollFromTop = $(window).scrollTop();
+              $("body").toggleClass("scroll", (scrollFromTop > 350));
+          })
+          });
+      </script>
+</body>
+</html>

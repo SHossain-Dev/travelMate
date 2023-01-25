@@ -213,7 +213,11 @@ width: 100%;
 
 nav.nav-wrapper ul li{
 display: inline-block;
+<<<<<<< HEAD
 padding: 0 8px;
+=======
+padding: 0 28px;
+>>>>>>> b77ce8d22e55565626706be8b37da41cd68ae900
 margin-bottom: 0;
 }
 nav.nav-wrapper ul li:last-child{
